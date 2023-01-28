@@ -19,12 +19,12 @@ const renderAuthContent = (content: React.ReactNode) => {
             }}
         >
             <Link to="/">
-                <img
+                {/* <img
                     style={{ marginBottom: 26 }}
                     src="/images/fine-foods-login.svg"
                     alt="Logo"
                     width="100%"
-                />
+                /> */}
             </Link>
             {content}
         </div>
